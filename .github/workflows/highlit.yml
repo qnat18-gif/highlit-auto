@@ -1,0 +1,119 @@
+name: Highlit Auto
+
+on:
+  schedule:
+    - cron: "30 3 * * *"      # 06:30 Saudi time daily; videos are SCHEDULED so they go live at the planned time
+  workflow_dispatch:
+    inputs:
+      run:
+        description: "What to run"
+        type: choice
+        default: check-render
+        options:
+          - check-render      # TEST: render a sample video only (no keys, no AI, no upload) ~2 min
+          - test-short        # TEST: full Short with AI + voice, NOT uploaded (saved as downloadable file)
+          - test-long         # TEST: full long video with AI + voice, NOT uploaded (saved as downloadable file)
+          - short             # PRODUCE: one Short and upload it
+          - long              # PRODUCE: one long video and upload it
+          - both              # PRODUCE: long video + Short
+          - auto              # same as the daily schedule (long on its weekday + Short)
+      area:
+        description: "Long video subject (empty = by weekly schedule, math if off-day)"
+        type: choice
+        default: ""
+        options: ["", math, exam, science, humanities]
+      publish_now:
+        description: "Production only: publish immediately instead of the scheduled time"
+        type: boolean
+        default: false
+      force:
+        description: "Production only: make it even if already done today"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: highlit
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - name: Resolve options
+        run: |
+          R="${{ inputs.run || 'auto' }}"
+          echo "RUN_MODE=$R" >> $GITHUB_ENV
+          case "$R" in
+            test-short) echo "MODE=short"  >> $GITHUB_ENV; echo "DRY_RUN=true"  >> $GITHUB_ENV ;;
+            test-long)  echo "MODE=long"   >> $GITHUB_ENV; echo "DRY_RUN=true"  >> $GITHUB_ENV ;;
+            short)      echo "MODE=short"  >> $GITHUB_ENV; echo "DRY_RUN=false" >> $GITHUB_ENV ;;
+            long)       echo "MODE=long"   >> $GITHUB_ENV; echo "DRY_RUN=false" >> $GITHUB_ENV ;;
+            both)       echo "MODE=both"   >> $GITHUB_ENV; echo "DRY_RUN=false" >> $GITHUB_ENV ;;
+            *)          echo "MODE=auto"   >> $GITHUB_ENV; echo "DRY_RUN=false" >> $GITHUB_ENV ;;
+          esac
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: System packages
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg espeak-ng fonts-dejavu-core
+
+      - name: Python packages
+        run: pip install requests edge-tts pillow numpy kokoro-onnx
+
+      - name: Kokoro model cache
+        if: env.RUN_MODE != 'check-render'
+        id: kcache
+        uses: actions/cache@v4
+        with:
+          path: models
+          key: kokoro-v1.0-models
+
+      - name: Download Kokoro model
+        if: env.RUN_MODE != 'check-render' && steps.kcache.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p models
+          curl -L --retry 4 -o models/kokoro-v1.0.onnx https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx
+          curl -L --retry 4 -o models/voices-v1.0.bin https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin
+
+      - name: Check render (sample video, no keys)
+        if: env.RUN_MODE == 'check-render'
+        run: |
+          python main.py --selftest short
+          python main.py --selftest long
+
+      - name: Make videos
+        if: env.RUN_MODE != 'check-render'
+        run: python main.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          AREA: ${{ inputs.area }}
+          PUBLISH_NOW: ${{ inputs.publish_now }}
+          FORCE: ${{ inputs.force }}
+
+      - name: Save state (topics, titles, series)
+        if: always() && env.DRY_RUN != 'true' && env.RUN_MODE != 'check-render'
+        run: |
+          git config user.name "highlit-bot"
+          git config user.email "highlit-bot@users.noreply.github.com"
+          git add state.json 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "state" && git pull --rebase && git push)
+
+      - name: Test files (download from the run page > Artifacts)
+        if: always() && (env.DRY_RUN == 'true' || env.RUN_MODE == 'check-render')
+        uses: actions/upload-artifact@v4
+        with:
+          name: highlit-test
+          path: out/
+          retention-days: 3
