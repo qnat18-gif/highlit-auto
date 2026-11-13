@@ -1,16 +1,22 @@
 {
  "titles": [
-  "Stop Misinterpreting P-Values! | AP Stats"
+  "Stop Misinterpreting P-Values! | AP Stats",
+  "Don't Make This SAT Algebra Trap! | Can You Solve It?"
  ],
  "topics": [
-  "P-value Interpretation in AP Statistics"
+  "P-value Interpretation in AP Statistics",
+  "Algebra Trap: Solving Equations by Factoring"
  ],
  "openers": [
-  "AP in 40 seconds"
+  "AP in 40 seconds",
+  "Can you solve it?"
  ],
  "series": [],
  "done": {
   "2026-11-12": [
+   "short"
+  ],
+  "2026-11-13": [
    "short"
   ]
  }
