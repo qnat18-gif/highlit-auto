@@ -2,17 +2,20 @@
  "titles": [
   "Stop Misinterpreting P-Values! | AP Stats",
   "Don't Make This SAT Algebra Trap! | Can You Solve It?",
-  "The ONE Trig Formula You Must Know! | SAT & ACT Math"
+  "The ONE Trig Formula You Must Know! | SAT & ACT Math",
+  "ACT Math Hack: Sum of Roots in 5 Seconds!"
  ],
  "topics": [
   "P-value Interpretation in AP Statistics",
   "Algebra Trap: Solving Equations by Factoring",
-  "Pythagorean Trigonometric Identity"
+  "Pythagorean Trigonometric Identity",
+  "ACT Math Vieta's Formula Shortcut"
  ],
  "openers": [
   "AP in 40 seconds",
   "Can you solve it?",
-  "Formula you must know"
+  "Formula you must know",
+  "SAT Math in 40 seconds"
  ],
  "series": [],
  "done": {
@@ -23,6 +26,9 @@
    "short"
   ],
   "2026-11-15": [
+   "short"
+  ],
+  "2026-11-16": [
    "short"
   ]
  }
