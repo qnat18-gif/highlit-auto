@@ -1,15 +1,18 @@
 {
  "titles": [
   "Stop Misinterpreting P-Values! | AP Stats",
-  "Don't Make This SAT Algebra Trap! | Can You Solve It?"
+  "Don't Make This SAT Algebra Trap! | Can You Solve It?",
+  "The ONE Trig Formula You Must Know! | SAT & ACT Math"
  ],
  "topics": [
   "P-value Interpretation in AP Statistics",
-  "Algebra Trap: Solving Equations by Factoring"
+  "Algebra Trap: Solving Equations by Factoring",
+  "Pythagorean Trigonometric Identity"
  ],
  "openers": [
   "AP in 40 seconds",
-  "Can you solve it?"
+  "Can you solve it?",
+  "Formula you must know"
  ],
  "series": [],
  "done": {
@@ -17,6 +20,9 @@
    "short"
   ],
   "2026-11-13": [
+   "short"
+  ],
+  "2026-11-15": [
    "short"
   ]
  }
