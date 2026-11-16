@@ -117,3 +117,11 @@ jobs:
           name: highlit-test
           path: out/
           retention-days: 3
+
+      - name: Keep the video if the run failed (so the work is not lost)
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: highlit-failed-video
+          path: out/
+          retention-days: 3
