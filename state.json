@@ -4,23 +4,36 @@
   "Don't Make This SAT Algebra Trap! | Can You Solve It?",
   "The ONE Trig Formula You Must Know! | SAT & ACT Math",
   "ACT Math Hack: Sum of Roots in 5 Seconds!",
-  "U-Substitution Integrals: Stop Guessing and Spot the Inside"
+  "U-Substitution Integrals: Stop Guessing and Spot the Inside",
+  "Buffer Solutions & Henderson-Hasselbalch | AP Chem Made Easy",
+  "Stop Changing Subscripts in Chemistry! | AP Chem"
  ],
  "topics": [
   "P-value Interpretation in AP Statistics",
   "Algebra Trap: Solving Equations by Factoring",
   "Pythagorean Trigonometric Identity",
   "ACT Math Vieta's Formula Shortcut",
-  "U-Substitution for Indefinite and Definite Integrals"
+  "U-Substitution for Indefinite and Definite Integrals",
+  "Buffer Solutions & Henderson-Hasselbalch Equation",
+  "Balancing Chemical Equations"
  ],
  "openers": [
   "AP in 40 seconds",
   "Can you solve it?",
   "Formula you must know",
   "SAT Math in 40 seconds",
-  "open with a relatable student problem"
+  "open with a relatable student problem",
+  "open with a quick challenge question to the viewer",
+  "Common mistake"
  ],
- "series": [],
+ "series": [
+  {
+   "area": "science",
+   "topic": "Buffer Solutions & Henderson-Hasselbalch Equation",
+   "next": 2,
+   "total": 2
+  }
+ ],
  "done": {
   "2026-11-12": [
    "short"
@@ -34,6 +47,10 @@
   "2026-11-16": [
    "short",
    "long"
+  ],
+  "2026-11-17": [
+   "long",
+   "short"
   ]
  }
 }
