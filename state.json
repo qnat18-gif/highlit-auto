@@ -6,7 +6,8 @@
   "ACT Math Hack: Sum of Roots in 5 Seconds!",
   "U-Substitution Integrals: Stop Guessing and Spot the Inside",
   "Buffer Solutions & Henderson-Hasselbalch | AP Chem Made Easy",
-  "Stop Changing Subscripts in Chemistry! | AP Chem"
+  "Stop Changing Subscripts in Chemistry! | AP Chem",
+  "Calculate Percentages in 3 Seconds! | Math Trick"
  ],
  "topics": [
   "P-value Interpretation in AP Statistics",
@@ -15,7 +16,8 @@
   "ACT Math Vieta's Formula Shortcut",
   "U-Substitution for Indefinite and Definite Integrals",
   "Buffer Solutions & Henderson-Hasselbalch Equation",
-  "Balancing Chemical Equations"
+  "Balancing Chemical Equations",
+  "Mental Math Percentages Hack"
  ],
  "openers": [
   "AP in 40 seconds",
@@ -24,7 +26,8 @@
   "SAT Math in 40 seconds",
   "open with a relatable student problem",
   "open with a quick challenge question to the viewer",
-  "Common mistake"
+  "Common mistake",
+  "Mental math trick"
  ],
  "series": [
   {
@@ -50,6 +53,9 @@
   ],
   "2026-11-17": [
    "long",
+   "short"
+  ],
+  "2026-11-18": [
    "short"
   ]
  }
