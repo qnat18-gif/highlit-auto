@@ -7,7 +7,8 @@
   "U-Substitution Integrals: Stop Guessing and Spot the Inside",
   "Buffer Solutions & Henderson-Hasselbalch | AP Chem Made Easy",
   "Stop Changing Subscripts in Chemistry! | AP Chem",
-  "Calculate Percentages in 3 Seconds! | Math Trick"
+  "Calculate Percentages in 3 Seconds! | Math Trick",
+  "Solve This SAT Exponent Trap in 10 Seconds!"
  ],
  "topics": [
   "P-value Interpretation in AP Statistics",
@@ -17,7 +18,8 @@
   "U-Substitution for Indefinite and Definite Integrals",
   "Buffer Solutions & Henderson-Hasselbalch Equation",
   "Balancing Chemical Equations",
-  "Mental Math Percentages Hack"
+  "Mental Math Percentages Hack",
+  "SAT Exponent Equations"
  ],
  "openers": [
   "AP in 40 seconds",
@@ -27,7 +29,8 @@
   "open with a relatable student problem",
   "open with a quick challenge question to the viewer",
   "Common mistake",
-  "Mental math trick"
+  "Mental math trick",
+  "Can you solve it?"
  ],
  "series": [
   {
@@ -56,6 +59,9 @@
    "short"
   ],
   "2026-11-18": [
+   "short"
+  ],
+  "2026-11-20": [
    "short"
   ]
  }
