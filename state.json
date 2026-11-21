@@ -8,7 +8,9 @@
   "Buffer Solutions & Henderson-Hasselbalch | AP Chem Made Easy",
   "Stop Changing Subscripts in Chemistry! | AP Chem",
   "Calculate Percentages in 3 Seconds! | Math Trick",
-  "Solve This SAT Exponent Trap in 10 Seconds!"
+  "Solve This SAT Exponent Trap in 10 Seconds!",
+  "Comparative Advantage & Terms of Trade | AP Econ Made Easy",
+  "The Blurting Method: Ace Your AP Exams!"
  ],
  "topics": [
   "P-value Interpretation in AP Statistics",
@@ -19,7 +21,9 @@
   "Buffer Solutions & Henderson-Hasselbalch Equation",
   "Balancing Chemical Equations",
   "Mental Math Percentages Hack",
-  "SAT Exponent Equations"
+  "SAT Exponent Equations",
+  "Comparative Advantage and Terms of Trade in AP Economics",
+  "The Blurting Method for Active Recall"
  ],
  "openers": [
   "AP in 40 seconds",
@@ -30,7 +34,9 @@
   "open with a quick challenge question to the viewer",
   "Common mistake",
   "Mental math trick",
-  "Can you solve it?"
+  "Can you solve it?",
+  "open with a shocking number or fact",
+  "Study hack"
  ],
  "series": [
   {
@@ -62,6 +68,10 @@
    "short"
   ],
   "2026-11-20": [
+   "short"
+  ],
+  "2026-11-21": [
+   "long",
    "short"
   ]
  }
