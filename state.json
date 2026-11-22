@@ -10,7 +10,9 @@
   "Calculate Percentages in 3 Seconds! | Math Trick",
   "Solve This SAT Exponent Trap in 10 Seconds!",
   "Comparative Advantage & Terms of Trade | AP Econ Made Easy",
-  "The Blurting Method: Ace Your AP Exams!"
+  "The Blurting Method: Ace Your AP Exams!",
+  "Circle Equations: Completing the Square Made Easy",
+  "The SAT Trig Secret Nobody Taught You!"
  ],
  "topics": [
   "P-value Interpretation in AP Statistics",
@@ -23,7 +25,9 @@
   "Mental Math Percentages Hack",
   "SAT Exponent Equations",
   "Comparative Advantage and Terms of Trade in AP Economics",
-  "The Blurting Method for Active Recall"
+  "The Blurting Method for Active Recall",
+  "Completing the Square for Circle Equations",
+  "Trigonometry Cofunction Identity"
  ],
  "openers": [
   "AP in 40 seconds",
@@ -36,7 +40,9 @@
   "Mental math trick",
   "Can you solve it?",
   "open with a shocking number or fact",
-  "Study hack"
+  "Study hack",
+  "open with a relatable student problem",
+  "Formula you must know"
  ],
  "series": [
   {
@@ -71,6 +77,10 @@
    "short"
   ],
   "2026-11-21": [
+   "long",
+   "short"
+  ],
+  "2026-11-22": [
    "long",
    "short"
   ]
