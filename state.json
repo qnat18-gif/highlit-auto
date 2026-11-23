@@ -13,7 +13,8 @@
   "The Blurting Method: Ace Your AP Exams!",
   "Circle Equations: Completing the Square Made Easy",
   "The SAT Trig Secret Nobody Taught You!",
-  "ACT Math Help: Function Transformations in 40 Seconds"
+  "ACT Math Help: Function Transformations in 40 Seconds",
+  "Solving Multi-Step Equations Algebra 1: Step-by-Step Guide"
  ],
  "topics": [
   "P-value Interpretation in AP Statistics",
@@ -29,7 +30,8 @@
   "The Blurting Method for Active Recall",
   "Completing the Square for Circle Equations",
   "Trigonometry Cofunction Identity",
-  "Function Transformations and Evaluation"
+  "Function Transformations and Evaluation",
+  "Solving multi-step equations"
  ],
  "openers": [
   "AP in 40 seconds",
@@ -45,7 +47,8 @@
   "Study hack",
   "open with a relatable student problem",
   "Formula you must know",
-  "SAT Math in 40 seconds"
+  "SAT Math in 40 seconds",
+  "open with a bold claim, then promise to prove it"
  ],
  "series": [
   {
@@ -88,7 +91,21 @@
    "short"
   ],
   "2026-11-23": [
-   "short"
+   "short",
+   "long"
   ]
+ },
+ "playlists": {
+  "Algebra 1 Lessons": "PLdeKyI94OK8k"
+ },
+ "last_long": {
+  "title": "Solving Multi-Step Equations Algebra 1: Step-by-Step Guide",
+  "url": "https://youtu.be/ZfP8I2r7RVQ"
+ },
+ "course_rot": {
+  "math": 1
+ },
+ "curriculum": {
+  "Algebra 1": 1
  }
 }
