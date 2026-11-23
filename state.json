@@ -12,7 +12,8 @@
   "Comparative Advantage & Terms of Trade | AP Econ Made Easy",
   "The Blurting Method: Ace Your AP Exams!",
   "Circle Equations: Completing the Square Made Easy",
-  "The SAT Trig Secret Nobody Taught You!"
+  "The SAT Trig Secret Nobody Taught You!",
+  "ACT Math Help: Function Transformations in 40 Seconds"
  ],
  "topics": [
   "P-value Interpretation in AP Statistics",
@@ -27,7 +28,8 @@
   "Comparative Advantage and Terms of Trade in AP Economics",
   "The Blurting Method for Active Recall",
   "Completing the Square for Circle Equations",
-  "Trigonometry Cofunction Identity"
+  "Trigonometry Cofunction Identity",
+  "Function Transformations and Evaluation"
  ],
  "openers": [
   "AP in 40 seconds",
@@ -42,7 +44,8 @@
   "open with a shocking number or fact",
   "Study hack",
   "open with a relatable student problem",
-  "Formula you must know"
+  "Formula you must know",
+  "SAT Math in 40 seconds"
  ],
  "series": [
   {
@@ -82,6 +85,9 @@
   ],
   "2026-11-22": [
    "long",
+   "short"
+  ],
+  "2026-11-23": [
    "short"
   ]
  }
