@@ -15,7 +15,8 @@
   "The SAT Trig Secret Nobody Taught You!",
   "ACT Math Help: Function Transformations in 40 Seconds",
   "Solving Multi-Step Equations Algebra 1: Step-by-Step Guide",
-  "Cell Structure and Function Biology: Organelle Review & Practice"
+  "Cell Structure and Function Biology: Organelle Review & Practice",
+  "Algebra 1 Review: Order of Operations Mistake"
  ],
  "topics": [
   "P-value Interpretation in AP Statistics",
@@ -33,7 +34,8 @@
   "Trigonometry Cofunction Identity",
   "Function Transformations and Evaluation",
   "Solving multi-step equations",
-  "Cell Structure and Function"
+  "Cell Structure and Function",
+  "Algebra 1 Order of Operations Mistake"
  ],
  "openers": [
   "AP in 40 seconds",
@@ -51,7 +53,8 @@
   "Formula you must know",
   "SAT Math in 40 seconds",
   "open with a bold claim, then promise to prove it",
-  "open with a quick challenge question to the viewer"
+  "open with a quick challenge question to the viewer",
+  "Common mistake"
  ],
  "series": [],
  "done": {
@@ -91,7 +94,8 @@
    "long"
   ],
   "2026-11-24": [
-   "long"
+   "long",
+   "short"
   ]
  },
  "playlists": {
