@@ -16,7 +16,8 @@
   "ACT Math Help: Function Transformations in 40 Seconds",
   "Solving Multi-Step Equations Algebra 1: Step-by-Step Guide",
   "Cell Structure and Function Biology: Organelle Review & Practice",
-  "Algebra 1 Review: Order of Operations Mistake"
+  "Algebra 1 Review: Order of Operations Mistake",
+  "Algebra Shortcuts: Multiply Fast Without a Calculator"
  ],
  "topics": [
   "P-value Interpretation in AP Statistics",
@@ -35,7 +36,8 @@
   "Function Transformations and Evaluation",
   "Solving multi-step equations",
   "Cell Structure and Function",
-  "Algebra 1 Order of Operations Mistake"
+  "Algebra 1 Order of Operations Mistake",
+  "Mental Math Difference of Squares Trick"
  ],
  "openers": [
   "AP in 40 seconds",
@@ -54,7 +56,8 @@
   "SAT Math in 40 seconds",
   "open with a bold claim, then promise to prove it",
   "open with a quick challenge question to the viewer",
-  "Common mistake"
+  "Common mistake",
+  "Mental math trick"
  ],
  "series": [],
  "done": {
@@ -95,6 +98,9 @@
   ],
   "2026-11-24": [
    "long",
+   "short"
+  ],
+  "2026-11-25": [
    "short"
   ]
  },
