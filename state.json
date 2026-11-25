@@ -17,7 +17,8 @@
   "Solving Multi-Step Equations Algebra 1: Step-by-Step Guide",
   "Cell Structure and Function Biology: Organelle Review & Practice",
   "Algebra 1 Review: Order of Operations Mistake",
-  "Algebra Shortcuts: Multiply Fast Without a Calculator"
+  "Algebra Shortcuts: Multiply Fast Without a Calculator",
+  "Triangle Congruence Postulates and Theorems: Geometry"
  ],
  "topics": [
   "P-value Interpretation in AP Statistics",
@@ -37,7 +38,8 @@
   "Solving multi-step equations",
   "Cell Structure and Function",
   "Algebra 1 Order of Operations Mistake",
-  "Mental Math Difference of Squares Trick"
+  "Mental Math Difference of Squares Trick",
+  "Triangle congruence postulates and theorems"
  ],
  "openers": [
   "AP in 40 seconds",
@@ -57,7 +59,8 @@
   "open with a bold claim, then promise to prove it",
   "open with a quick challenge question to the viewer",
   "Common mistake",
-  "Mental math trick"
+  "Mental math trick",
+  "open with a shocking number or fact"
  ],
  "series": [],
  "done": {
@@ -101,23 +104,26 @@
    "short"
   ],
   "2026-11-25": [
-   "short"
+   "short",
+   "long"
   ]
  },
  "playlists": {
   "Algebra 1 Lessons": "PLdeKyI94OK8k",
-  "Biology Lessons": "PLJBhzLL1-AG4"
+  "Biology Lessons": "PLJBhzLL1-AG4",
+  "Geometry Lessons": "PLV1IsEkwUQ2g"
  },
  "last_long": {
-  "title": "Cell Structure and Function Biology: Organelle Review & Practice",
-  "url": "https://youtu.be/40SJIPxZF1c"
+  "title": "Triangle Congruence Postulates and Theorems: Geometry",
+  "url": "https://youtu.be/166rGhGxgL8"
  },
  "course_rot": {
-  "math": 1,
+  "math": 2,
   "science": 1
  },
  "curriculum": {
   "Algebra 1": 1,
-  "Biology": 1
+  "Biology": 1,
+  "Geometry": 2
  }
 }
