@@ -18,7 +18,9 @@
   "Cell Structure and Function Biology: Organelle Review & Practice",
   "Algebra 1 Review: Order of Operations Mistake",
   "Algebra Shortcuts: Multiply Fast Without a Calculator",
-  "Triangle Congruence Postulates and Theorems: Geometry"
+  "Triangle Congruence Postulates and Theorems: Geometry",
+  "SAT Math Help: Systems of Linear Equations Practice for 2027",
+  "Type 1 vs Type 2 Errors Explained | AP Stats 2027"
  ],
  "topics": [
   "P-value Interpretation in AP Statistics",
@@ -39,7 +41,9 @@
   "Cell Structure and Function",
   "Algebra 1 Order of Operations Mistake",
   "Mental Math Difference of Squares Trick",
-  "Triangle congruence postulates and theorems"
+  "Triangle congruence postulates and theorems",
+  "Linear equations and systems",
+  "AP Statistics Type 1 vs Type 2 Error"
  ],
  "openers": [
   "AP in 40 seconds",
@@ -60,7 +64,9 @@
   "open with a quick challenge question to the viewer",
   "Common mistake",
   "Mental math trick",
-  "open with a shocking number or fact"
+  "open with a shocking number or fact",
+  "open with a mini story (3 sentences max)",
+  "AP in 40 seconds"
  ],
  "series": [],
  "done": {
@@ -106,24 +112,31 @@
   "2026-11-25": [
    "short",
    "long"
+  ],
+  "2026-11-26": [
+   "long",
+   "short"
   ]
  },
  "playlists": {
   "Algebra 1 Lessons": "PLdeKyI94OK8k",
   "Biology Lessons": "PLJBhzLL1-AG4",
-  "Geometry Lessons": "PLV1IsEkwUQ2g"
+  "Geometry Lessons": "PLV1IsEkwUQ2g",
+  "SAT Math Lessons": "PLcm_EvtiTsWw"
  },
  "last_long": {
-  "title": "Triangle Congruence Postulates and Theorems: Geometry",
-  "url": "https://youtu.be/166rGhGxgL8"
+  "title": "SAT Math Help: Systems of Linear Equations Practice for 2027",
+  "url": "https://youtu.be/qyX2tdRZcwg"
  },
  "course_rot": {
   "math": 2,
-  "science": 1
+  "science": 1,
+  "exam": 1
  },
  "curriculum": {
   "Algebra 1": 1,
   "Biology": 1,
-  "Geometry": 2
+  "Geometry": 2,
+  "SAT Math": 1
  }
 }
