@@ -20,7 +20,8 @@
   "Algebra Shortcuts: Multiply Fast Without a Calculator",
   "Triangle Congruence Postulates and Theorems: Geometry",
   "SAT Math Help: Systems of Linear Equations Practice for 2027",
-  "Type 1 vs Type 2 Errors Explained | AP Stats 2027"
+  "Type 1 vs Type 2 Errors Explained | AP Stats 2027",
+  "SAT Math Help: Solving Exponential Equations Step-by-Step"
  ],
  "topics": [
   "P-value Interpretation in AP Statistics",
@@ -43,7 +44,8 @@
   "Mental Math Difference of Squares Trick",
   "Triangle congruence postulates and theorems",
   "Linear equations and systems",
-  "AP Statistics Type 1 vs Type 2 Error"
+  "AP Statistics Type 1 vs Type 2 Error",
+  "SAT Math Exponents"
  ],
  "openers": [
   "AP in 40 seconds",
@@ -66,7 +68,8 @@
   "Mental math trick",
   "open with a shocking number or fact",
   "open with a mini story (3 sentences max)",
-  "AP in 40 seconds"
+  "AP in 40 seconds",
+  "Can you solve it?"
  ],
  "series": [],
  "done": {
@@ -115,6 +118,9 @@
   ],
   "2026-11-26": [
    "long",
+   "short"
+  ],
+  "2026-11-27": [
    "short"
   ]
  },
