@@ -21,7 +21,9 @@
   "Triangle Congruence Postulates and Theorems: Geometry",
   "SAT Math Help: Systems of Linear Equations Practice for 2027",
   "Type 1 vs Type 2 Errors Explained | AP Stats 2027",
-  "SAT Math Help: Solving Exponential Equations Step-by-Step"
+  "SAT Math Help: Solving Exponential Equations Step-by-Step",
+  "Colonial America APUSH: Unit 2 Review & Exam Help 2027",
+  "Stop Block Studying! | Study Skills Hack 2027"
  ],
  "topics": [
   "P-value Interpretation in AP Statistics",
@@ -45,7 +47,9 @@
   "Triangle congruence postulates and theorems",
   "Linear equations and systems",
   "AP Statistics Type 1 vs Type 2 Error",
-  "SAT Math Exponents"
+  "SAT Math Exponents",
+  "Colonial America 1607 to 1754 AP US History Overview",
+  "Interleaving Study Technique"
  ],
  "openers": [
   "AP in 40 seconds",
@@ -69,7 +73,9 @@
   "open with a shocking number or fact",
   "open with a mini story (3 sentences max)",
   "AP in 40 seconds",
-  "Can you solve it?"
+  "Can you solve it?",
+  "open with a bold claim, then promise to prove it",
+  "Study hack"
  ],
  "series": [],
  "done": {
@@ -122,27 +128,34 @@
   ],
   "2026-11-27": [
    "short"
+  ],
+  "2026-11-28": [
+   "long",
+   "short"
   ]
  },
  "playlists": {
   "Algebra 1 Lessons": "PLdeKyI94OK8k",
   "Biology Lessons": "PLJBhzLL1-AG4",
   "Geometry Lessons": "PLV1IsEkwUQ2g",
-  "SAT Math Lessons": "PLcm_EvtiTsWw"
+  "SAT Math Lessons": "PLcm_EvtiTsWw",
+  "AP US History Lessons": "PLUxnmQnqP3uI"
  },
  "last_long": {
-  "title": "SAT Math Help: Systems of Linear Equations Practice for 2027",
-  "url": "https://youtu.be/qyX2tdRZcwg"
+  "title": "Colonial America APUSH: Unit 2 Review & Exam Help 2027",
+  "url": "https://youtu.be/a1QXetTjOds"
  },
  "course_rot": {
   "math": 2,
   "science": 1,
-  "exam": 1
+  "exam": 1,
+  "humanities": 1
  },
  "curriculum": {
   "Algebra 1": 1,
   "Biology": 1,
   "Geometry": 2,
-  "SAT Math": 1
+  "SAT Math": 1,
+  "AP US History": 1
  }
 }
